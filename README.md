@@ -6,4 +6,8 @@ Another Customized Bash Shell
 ![image](https://github.com/grant-deru/ZSHRC-Shell/assets/170145174/4b4b600a-cf7b-4895-b0a2-617122d9dc0b)
 
 Bash shell with virtual environment.
+
+PS1='[\u@\h:\w]# '
+PS1='$(if [[ -n "$VIRTUAL_ENV" ]]; then echo "($(basename $VIRTUAL_ENV)) "; fi)[\u@\h:\w]# '
+
 ![image](https://github.com/grant-deru/ZSHRC-Shell/assets/170145174/557d3f79-6f9a-465e-8ad5-299d5bfd574b)
